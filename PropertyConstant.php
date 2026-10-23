@@ -30,12 +30,6 @@ class Produk {
 //object
 $produk = new Produk('P0001','Laptop', '10000000','5');
 
-// //hitung harga
-// $pajak = Produk::PAJAK * 100;
-// $jumlahPajak = $produk->harga * Produk::PAJAK;
-
-// //total
-// $total = $produk->harga + $jumlahPajak;
 
 //hasil
 echo "Produk: ".$produk->nama;
