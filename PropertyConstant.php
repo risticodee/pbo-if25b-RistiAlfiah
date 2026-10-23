@@ -10,7 +10,7 @@ class Produk {
 
     public const PAJAK = 0.11;
 
-    public function __construct($kode, $nama, $harga) {
+    public function __construct($kode,$nama,$harga,$stok) {
         $this->kode = $kode;
         $this->nama = $nama;
         $this->harga = $harga;
